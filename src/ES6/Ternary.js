@@ -11,7 +11,7 @@ const Greeting = ({ isUserLoggedIn}) =>(
     </div>
 )
 
-const Ter = () => {
+const Ternary = () => {
     const[userLoggedIn, setUserLoggedIn] = useState(false);
   return (
     <div>
@@ -24,4 +24,4 @@ const Ter = () => {
   );
 };
 
-export default Ter
+export default Ternary
