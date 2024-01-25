@@ -8,12 +8,28 @@ export default function App() {
    <BrowserRouter>
    <Routes>
     <Route path="/" element={<Layout/>}>
+
+
       <Route index element={<Home/>}   />
-      <Route path="about" element={<About/>}/>
-      <Route path="contact" element={<Contact/>}/>
+      <Route path="about" element={<About/>} />
+      <Route path="contact" element={<Contact/>} />
 
     </Route>
    </Routes>
    </BrowserRouter>
   )
 }
+
+
+
+// import Basic from './Events/EventClass/Basic'
+// import Counter from './Hooks/UseState/Counter'
+
+// export default function App() {
+//   return (
+//     <div>
+//       {/* <Basic/> */}
+//       <Counter/>
+//     </div>
+//   )
+// }

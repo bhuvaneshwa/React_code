@@ -5,15 +5,15 @@ export default function Layout() {
   return (
     <div>
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
+        <ul className="nav-bar">
+          <li >
+            <Link className="nav-link" to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link className="nav-link" to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link className="nav-link"v  to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
